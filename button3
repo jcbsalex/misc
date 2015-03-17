@@ -1,0 +1,166 @@
+<section class="type1">
+  <h1>Buttons</h1>
+  <h2>A work in progress</h2>
+  <button class="pri">Primary</button>
+  <button class="sec">Secondary</button>
+</section>
+<section class="type2">
+  <button class="pri">Primary</button>
+  <button class="sec">Secondary</button>
+</section>
+<section class="type3">
+  <button class="pri">Primary</button>
+  <button class="sec">Secondary</button>
+</section>
+<section class="type4">
+  <button class="pri">Primary</button>
+  <button class="sec">Secondary</button>
+</section>
+<section class="type5">
+  <button class="pri">Primary</button>
+  <button class="sec">Secondary</button>
+</section>
+
+..
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@font: 'Lato', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+body{
+  margin: 0;
+  font-family: @font;
+  color: rgb(84,36,55);
+  background-color: rgb(83,119,122);
+  h1, h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: 1em 0 0 0;
+    margin: 0;
+  }
+  h1{
+    letter-spacing: 0.4em;
+  }
+  h2{
+    font-size: 1em;
+    padding-bottom: 2em;
+  }
+}
+section{
+  text-align: center;
+}
+button{
+  font-family: @font;  
+  font-size: 16px;
+  letter-spacing: 0.05em; 
+  text-transform: uppercase;
+  color: white;
+  border: solid 1px currentColor;
+  padding: 1em;
+  margin: 1.5em 1em;
+}
+.type1(){ 
+  @color: rgb(236,208,120);
+  @acc:   rgb(217,91,67);
+  button{
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .pri{
+    background-color: @acc;
+    border: solid 1px transparent;
+    color: @color;
+    &:hover{
+      border: solid 1px darken(@acc,5%);
+      background-color: darken(@acc,5%);
+      color: lighten(@color,10%);
+      box-shadow: 0px 1px 4px fadeout(@acc,40%);
+    }
+  }
+  .sec{
+    color: @acc;
+    background-color: transparent;
+    &:hover{
+      border: solid 1px darken(@acc,5%);
+      background-color: darken(@color,2%);
+      color: darken(@acc,10%);
+    }
+  }
+}
+.type2(){ 
+  @color: rgb(217,91,67);
+  @acc:   rgb(84,36,55);
+  button{
+    transition: all 0.5s ease;
+    background-size: 100% 160%;
+    background-position: center top;
+    &:hover{
+        background-position: center bottom;
+    }
+  }
+  .pri{
+    background: linear-gradient(lighten(@acc,15%), @acc );
+    background-size: 100% 140%;
+    border: solid 1px lighten(@acc, 8%);
+    border-top: solid 1px lighten(@acc, 25%);
+    border-bottom: solid 1px darken(@acc, 8%);
+    outline: 1px solid currentColor;
+  }
+  .sec{
+    background: linear-gradient(lighten(@acc,15%), @acc );
+    border: solid 1px lighten(@acc, 8%);
+    border-top: solid 1px lighten(@acc, 25%);
+    border-bottom: solid 1px darken(@acc, 8%);
+  }
+}
+.type3(){ 
+  @color: rgb(192,41,66);
+  @acc:    rgb(236,208,120);
+  button{
+    color: darken(@acc,50%);
+    border-radius: 2em;
+    padding: 1em 1.3em;
+    border: none;
+    text-shadow: 1px 1px lighten(@acc,10%);
+    border-bottom: solid 1px darken(@acc,50%);
+    border-top: solid 1px lighten(@acc,10%);
+    transition: all 0.5s ease;
+    &:hover{
+      transform: translateY(-1px);
+      box-shadow: 1px 3px 4px rgba(0,0,0,.5);
+    }
+  }
+  .pri{
+     background-color: @acc;
+     background: linear-gradient(lighten(@acc,5%), darken(@acc,10%));
+     box-shadow: 2px 2px 2px fadeout(darken(@acc,50%),10%);
+  }
+  .sec{
+     background-color: @acc;
+     color: desaturate(darken(@acc,40%),30%);
+     background: linear-gradient( desaturate(lighten(@acc,5%),20%), desaturate(darken(@acc,10%),20%));
+    box-shadow: 1px 1px 2px fadeout(darken(@acc,50%),10%);
+  }
+}
+.type4(){ @color: rgb(84,36,55); }
+.type5(){ @color: rgb(83,119,122); }
+
+section.type1{
+  .type1();
+  background-color: @color;
+}
+section.type2{
+  .type2();
+  background-color: @color;
+}
+section.type3{
+  .type3();
+  background-color: @color;
+}
+section.type4{
+  .type4();
+  background-color: @color;
+}
+section.type5{
+  .type5();
+  background-color: @color;
+}
