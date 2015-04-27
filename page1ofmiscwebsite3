@@ -1,0 +1,43 @@
+<div id="bar">
+<ul>
+  <a href="dsf.com"><li>sdf</li></a>
+  <a href=""><li>sdfsf</li></a>
+  <a href=""><li>ff</li></a>
+  <a href=""><li>f</li></a>
+  <a href=""><li>f</li></a>
+</ul>
+</div>
+
+<div id=content>
+<img src="http://upload.wikimedia.org/wikipedia/en/0/03/MeadowInBigBear.JPG" height=75% width=100%>  
+  
+  
+  
+  
+</div>
+
+<style>
+  ul{
+    font-size:25px
+    }
+  li {
+    display:inline-block;
+    color:black;
+    font-family:helvetica;
+    padding:2%;
+    border:inset 32px silver;
+    }
+  body {
+    margin:0px;
+    background-color:silver;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</style>
