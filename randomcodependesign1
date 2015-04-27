@@ -1,0 +1,44 @@
+ <h1>
+  <span>p</span>
+  <span>u</span>
+  <span>s</span>
+  <span>y</span>
+  <span>y</span>
+  <span> </span>
+  <span>w</span>
+  <span>e</span>
+  <span>e</span>
+  <span>d</span>
+</h1>
+
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+
+$numLetters: 10;
+$base-color: red;
+html,body{
+  margin: 0;
+  padding: 0;
+  background: pink;
+}
+h1{
+  font-family: helvetica;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  width: 800px;
+  margin: 150px auto;
+}
+h1 span{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  text-shadow: #22313F 7px 33px 7px;
+  border: solid pink 41px;
+}
+@for $i from 1 through $numLetters {
+  span:nth-of-type(#{$i}){
+    left: 85px * $i;
+    color: lighten( $base-color, $i*4% );
+  }
+}
