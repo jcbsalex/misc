@@ -1,0 +1,105 @@
+<nav>
+<ul>
+<li><a href="">About</a></li>
+<li><a href="">Work</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+<img src="https://cloud.githubusercontent.com/assets/3193523/6226150/4c249bea-b68a-11e4-906c-a6272460c114.png" height=100% width=100%>
+</nav>
+
+
+
+
+.
+
+
+
+
+
+
+
+
+body{
+margin: 0px;
+padding: 0px;
+background: black;
+font-family: helvetica;
+font-weight:bold;
+font-size:20px;
+}
+nav{
+clear: both;
+width: 100%;
+margin: 5px;
+background: #eee;
+}
+nav ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+nav li{
+float: left;
+width: 100%;
+}
+nav li a{
+display: block;
+width: 100%;
+padding: 20px;
+border-left: 5px solid;
+position: relative;
+z-index: 2;
+text-decoration: none;
+color: #444;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+nav li a:hover{ border-bottom: 0px; color: #fff;}
+nav li:first-child a{ background: -webkit-linear-gradient(left, red , black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#0F1F4C
+, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0F1F4C
+, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0F1F4C
+ , black); /* Standard syntax (must be last) */ }
+nav li:nth-child(2) a{ background: -webkit-linear-gradient(left, #0F1F4C
+ , black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #0F1F4C
+, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0F1F4C
+, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0F1F4C
+ , black); /* Standard syntax (must be last) */ }
+nav li:nth-child(3) a{ background: -webkit-linear-gradient(left, #0F1F4C
+ , black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #0F1F4C
+, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0F1F4C
+, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0F1F4C
+ , black); /* Standard syntax (must be last) */ }
+nav li:last-child a{ background: -webkit-linear-gradient(left, #0F1F4C
+, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #0F1F4C
+, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0F1F4C
+, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0F1F4C
+ , black); /* Standard syntax (must be last) */ }
+nav li a:after {
+content: "";
+height: 100%;
+left: 0;
+top: 0;
+width: 0px;
+position: absolute;
+transition: all 0.3s ease 0s;
+-webkit-transition: all 0.3s ease 0s;
+z-index: -1;
+}
+nav li a:hover:after{ width: 100%; }
+nav li:first-child a:after{ background: black; }
+nav li:nth-child(2) a:after{ background: black; }
+nav li:nth-child(3) a:after{ background: black; }
+nav li:last-child a:after{ background: black; }
