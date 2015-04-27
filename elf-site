@@ -1,0 +1,74 @@
+<style>
+  body {
+  padding-top: 10px;
+  text-align: left;
+  background: url(http://33.media.tumblr.com/d1c4df8bacf0525243c241bd53d0b46a/tumblr_n7456y6qBP1s13wj2o2_500.gif) 50%;
+  background-size: cover;
+}
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} 
+
+li {
+    display: inline;
+  
+}
+
+a:link, a:visited {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family:helvetica;
+    padding: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:outset 6px silver;
+}
+h4{
+  color:red;
+  border:solid silver 3px;
+  }
+h3{
+  color:teal;
+  }
+p{
+  
+  font-family:helvetica;
+  text-align:center
+  }
+
+
+</style>
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+<body>
+  <h4>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>sdf</p>
+  </h4>
+  <h3>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+  </h3>
+  <h3>
+    <p>asdf</p>
+    <p>dsaf</p>
+    <p>asdf</p>
+    <p>fffffff</p>
+  </h3>
+  
+</body>
