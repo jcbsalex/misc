@@ -1,0 +1,84 @@
+<h1 align="center";>Welcome my friend.</h1>
+<h2 align="center";>Professional Web Design</h2>
+<h3 align="center";>portfolio</h3>
+<h4 align="center";>contact</h4>
+<div class="sqiare" align="center";>
+<p>Virtual
+  <img style="height:auto; width:auto; max-width:250px; max-height:250px;" src="http://4.bp.blogspot.com/-M63DQ7PrQm0/TacdhRj_kPI/AAAAAAAAAas/JxVLKN0jdGE/s1600/minecraft+ancient+creeeper+temple+waterfall.png">
+</p>
+<p>Dreamscape</p>
+</div>
+<div class="square" align="center";>
+<p>Precision
+  <img style="height:auto; width:auto; max-width:250px; max-height:250px;" src="http://images.bit-tech.net/news_images/2011/03/mnpctech-finishes-mod-men-project/modmen2-1280x1024.jpg">
+</p>
+<p>Aesthetics
+  <img style="height:auto; width:auto; max-width:250px; max-height:250px;" src="http://i.ytimg.com/vi/Dk3V64ZSsEI/maxresdefault.jpg">  
+</p>
+</div>
+<div class="centerp">
+<p align="center";>im thee rawestand i gooo soooo ahrdd</p>
+</div>
+
+
+
+* {
+padding:0;
+margin:0;
+}
+html{
+height:100%;
+background: linear-gradient(333deg, hotpink, aquamarine 70%) no-repeat;
+}
+p{
+  color:
+}
+h1 {
+font-family:times;
+font-size:110px;
+color:white;
+font-weight:900;
+text-shadow: 11px 11px 11px pink;
+}
+h2 {
+font-family:times;
+font-size:70px;
+color:white;
+font-weight:900;
+text-shadow: 6px 6px 6px pink;
+}
+h3 {
+font-family:times;
+font-size:55px;
+color:white;
+font-weight:900;
+text-shadow: 5px 5px 5px pink;
+}
+h4 {
+font-family:times;
+font-size:50px;
+color:white;
+font-weight:900;
+text-shadow: 4px 4px 4px pink;
+}
+.sqiare{
+float:right;
+width: 300px; height:490px;
+background: linear-gradient(333deg, teal, pink 140%);
+border:33px outset pink;
+color:white;
+}
+.square{
+float:left;
+width: 300px; height:490px;
+background: linear-gradient(333deg, teal, pink 140%);
+border:33px inset white;
+color:white;
+}
+.centerp {
+font-size:69px;
+font-family:verdana;
+font-weight:900;
+text-shadow: 11px 11px 11px pink;
+color:white;
+}
