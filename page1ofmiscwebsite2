@@ -1,0 +1,32 @@
+<div class="nav">
+<ul>
+  <li><a href="">occultism</a></li>
+  <li><a href="">shamanism</a></li>
+  <li><a href="">death</a></li>
+  <li><a href="">suffering</a></li>
+</ul>
+</div>
+
+<p>
+  out there is nothing for me
+</p>
+
+* {
+  padding:10;
+  margin:10;
+}
+body{
+  height:800px;
+  background:linear-gradient(black,grey);
+}
+li {
+  display:block;
+  font-size:25px;
+  margin:auto;
+  padding:auto;
+}
+p{
+  color:grey;
+  border: outset grey 16px;
+  text-align:center;
+}
