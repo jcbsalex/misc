@@ -1,0 +1,67 @@
+# test1
+html
+
+<div id="body">
+  <div id="header"><h1>Roger && Rogers place of lawyership</h1>
+  </div>
+  <div id="rectangle">
+  </div>
+  <div id="rectangle2">
+  </div>
+  <div id="body">
+  <ul>
+    <li><a href="#">home</a></li>
+    <li><a href="#">about</a></li>
+    <li><a href="#">contact</a></li>
+    <p>insert article here
+    </p>
+  </ul>
+  </div>
+</div>
+
+css
+
+
+body {
+  background-color:#F8F8F8;
+  margin:20px;
+}
+
+#header {
+  color:white;
+  background-color:black;
+  text-align:left;
+  width:220px;
+}
+
+#rectangle {
+	float:left;
+  width: 220px;
+	height: 660px;
+	background: black;
+}
+
+#rectangle2 {
+  float:right;
+  width: 220px;
+	height: 660px;
+	background: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin:5px;
+}
+
+a:link{
+  color: black;
+}
+a:hover{
+  color: silver;
+}
